@@ -1,6 +1,8 @@
 import 'dart:io';
 
 void main() {
+  // print('Silahkan Masukan Angka Untuk Melakukan proses Looping:');
+  print('Masukkan batas angka untuk looping:');
   String? input = stdin.readLineSync() ?? '';
   int limit = int.tryParse(input) ?? 0;
 
@@ -8,13 +10,13 @@ void main() {
   print('Menggunakan While');
   while (number < limit) {
     print('While Loop ke: $number');
-    number += 4;
+    number += 1;
   }
 
   number = 0;
   print('Menggunakan Do-While');
   do {
     print('Do-while Lop ke: $number');
-    number += 0;
+    number += 1;
   } while (number < limit);
 }
