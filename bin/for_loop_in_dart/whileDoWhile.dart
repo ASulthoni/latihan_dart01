@@ -10,7 +10,7 @@ void main() {
   print('Menggunakan While');
   while (number < limit) {
     print('While Loop ke: $number');
-    number += 1;
+    number += 2;
   }
 
   number = 0;
