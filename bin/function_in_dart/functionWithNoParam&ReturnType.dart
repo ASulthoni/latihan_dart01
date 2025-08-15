@@ -1,14 +1,14 @@
 // Function With No Parameter & Return Type
 void main() {
-  int p = 5;
-  int l = 10; 
+  int panjang = 5;
+  int l = 10;
 
-  int luas = luasPersegi(p, l); 
+  int luas = luasPersegi(panjang: panjang, lebar: l);
 
   print('Luas Persegi: $luas');
 }
 
-int luasPersegi(int panjang, int lebar) {
+int luasPersegi({required int panjang, required int lebar}) {
   int luas = panjang * lebar;
   return luas;
 }
