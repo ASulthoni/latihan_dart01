@@ -1,8 +1,8 @@
-void main(){
-        bool isMarried = true;
-        if(isMarried){
-            print("You are married.");
-        }else{
-            print("You are single.");
-        }
+void main() {
+  bool isMarried = false;
+  if (isMarried) {
+    print("You are married.");
+  } else {
+    print("You are single.");
+  }
 }
