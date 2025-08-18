@@ -1,7 +1,7 @@
 void main() {
   say_1('jenie', 'Hello');
   say_2('jhon', 'Hello');
-  say_2('roy', 'Hello', null, 'WA');
+  say_2('roy', 'Hello');
 }
 
 void say_1(String from, String message) {
